@@ -35,7 +35,7 @@ export default function Notification() {
     <DefaultLayout>
       <section className="w-full max-w-4xl mx-auto mt-20 px-4">
         <h1 className="font-bold text-2xl">Status Pesanan</h1>
-        <main className="flex flex-col gap-5 mt-5">
+        <main className="flex flex-col gap-5 mt-5 pb-5">
           {/* perulangan pesanan*/}
           {data.length > 0 ? (
             data.map((item, i) => {
