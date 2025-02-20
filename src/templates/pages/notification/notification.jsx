@@ -75,9 +75,9 @@ export default function Notification() {
                     <h1
                       className={`${
                         item.status == "sedang dibuat"
-                          ? "bg-orange-500 text-orange-100"
-                          : "bg-green-500 text-green-200"
-                      } capitalize px-3 py-[3px] rounded-lg font-semibold text-[12px]`}
+                          ? "bg-orange-500"
+                          : "bg-green-500"
+                      } capitalize px-3 py-[3px] text-white rounded-lg font-semibold text-[12px]`}
                     >
                       {item.status}
                     </h1>
