@@ -186,18 +186,22 @@ export default function Home() {
               </h1>
               <div className="flex flex-col gap-3 mt-5 w-full max-w-3xl">
                 <p className="text-center">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed
-                  nostrum molestias facere impedit ipsum, voluptatem at delectus
-                  eos blanditiis laborum, ea reiciendis alias nisi vel
-                  temporibus cum facilis ipsa harum! Lorem ipsum dolor, sit amet
-                  consectetur adipisicing elit. Illo voluptates totam corporis
-                  aut
+                  Kami adalah warung UMKM yang menyajikan beraneka ragam minuman
+                  dan makanan lezat dengan harga terjangkau. Dengan bahan-bahan
+                  berkualitas dan cita rasa khas, kami berkomitmen untuk
+                  memberikan pengalaman kuliner yang memuaskan bagi setiap
+                  pelanggan. Tempat yang nyaman dan pelayanan ramah menjadikan
+                  warung kami pilihan tepat untuk bersantai dan menikmati
+                  hidangan favorit.
                 </p>
                 <p className="text-center">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed
-                  nostrum molestias facere impedit ipsum, voluptatem at delectus
-                  eos blanditiis laborum, ea reiciendis alias nisi vel
-                  temporibus cum facilis ipsa harum!
+                  Warung kami terletak di Madiun, tepatnya di Jalan Margobawero
+                  No. 8, dengan lokasi yang strategis dan mudah dijangkau.
+                  Suasana yang hangat dan bersahabat membuat tempat ini cocok
+                  untuk berkumpul bersama keluarga, teman, atau sekadar
+                  menikmati waktu santai. Kami siap melayani dengan sepenuh
+                  hati, menghadirkan menu yang variatif dan selalu segar setiap
+                  hari.
                 </p>
               </div>
             </div>
