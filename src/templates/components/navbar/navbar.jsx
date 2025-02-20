@@ -39,13 +39,13 @@ export default function Navbar({ refMenu, refAbout }) {
           {windowWidth > 500 && (
             <div className="flex gap-3">
               <h1
-                className="cursor-pointer hover:text-green-500 transition-colors duration-200"
+                className="cursor-pointer text-lg hover:text-green-500 transition-colors duration-200"
                 onClick={handleMenuClick}
               >
                 Menu
               </h1>
               <h1
-                className="cursor-pointer hover:text-green-500 transition-colors duration-200"
+                className="cursor-pointer text-lg hover:text-green-500 transition-colors duration-200"
                 onClick={handleAboutClick}
               >
                 About
