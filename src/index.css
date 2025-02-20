@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+.blackShadow {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Hapus spinner di Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Scrollbar di seluruh elemen */
+::-webkit-scrollbar {
+  width: 10px; /* Lebar scrollbar */
+}
+
+/* Track (bagian latar belakang scrollbar) */
+::-webkit-scrollbar-track {
+  background: transparent; /* Transparan */
+}
+
+/* Thumb (bagian yang bisa digeser) */
+::-webkit-scrollbar-thumb {
+  background: #22c55e; /* Warna hijau sesuai text-green-500 */
+  border-radius: 10px; /* Membuatnya lebih bulat */
+}
+
+/* Hover efek */
+::-webkit-scrollbar-thumb:hover {
+  background: #16a34a; /* Warna hijau lebih gelap saat di-hover */
+}
